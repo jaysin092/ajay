@@ -22,3 +22,7 @@ working-directory   staging-area       loacl-repo(head)  remote-repo(master/main
 ---------------git add-------->git commit-------->git push---------->
 <------------------------------git merge----------<-- git fetch------
 <-------------------------------git pull-----------------------------
+
+
+this all will changes in current git repo on git GitHub.
+after this we will goto git hub and check open pull request and review and merge the same after assigning it itself.
