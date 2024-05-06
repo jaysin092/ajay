@@ -1,4 +1,4 @@
-git: 
+git: branch
 to track the project history
 to collaborate with team
 
