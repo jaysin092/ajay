@@ -51,6 +51,7 @@ add title
 create pull request
 merge pull request
 confirm merge
+<<<<<<< HEAD
 same changes will show whatever in feature branc/your branch same on miain/master branch. 
 
 
@@ -87,3 +88,6 @@ git branch -r  Display a list of the remote branches in your Git repository.
 
 git push <remote> --delete <remote-branch-name> – Delete a remote Git branch.
 git push --set-upstream <remote> <branch> – Set an upstream branch. Running this command will push your local branch to the new remote branch.
+=======
+same changes will show whatever in feature branc/your branch same on miain/master branch. 
+>>>>>>> 4f692e82b33194fd6713a64a69d200ccbc74870a
