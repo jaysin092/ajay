@@ -4,11 +4,9 @@ to collaborate with team
 
 GitHub:
 to store the code
-
-
 readme.md
 .md=>>markdown document
- git rm -f --cached demo  # to remoe another repo by mistake added in my repo
+git rm -f --cached demo  # to remoe another repo by mistake added in my repo
 changes===>>>means commit
 git fetch ===> remote to local repo
 git merge ===> local repo to working directory
