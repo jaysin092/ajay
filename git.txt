@@ -17,6 +17,14 @@ git pull==> agar remote repo main same line par kisi developer ne change kiya ha
 and hum b apne local par working directory main same linepar change kr rahe hai to
 merge conflict aajayega
 
+git checkout master/main
+git branch branch-name
+git branch -b 
+git add file-name
+or git add . #current directory
+git commit -m ""
+or git commit -am "" # add and commit both
+
 
 working-directory   staging-area       loacl-repo(head)  remote-repo(master/main)
 ---------------git add-------->git commit-------->git push---------->
@@ -34,3 +42,38 @@ create pull request
 merge pull request
 confirm merge
 same changes will show whatever in feature branc/your branch same on miain/master branch. 
+
+
+To remove all the files staged in the index at the same time, use the command:
+
+git reset HEAD -- <directory-name>
+
+To remove a single staged file from index, use the command:
+
+git rm --cached <filename>
+
+
+PS D:\GIT> git branch -a # shows remote and local branch
+* GIT
+  main
+  remotes/origin/GIT
+  remotes/origin/main
+
+git checkout -b <branch-name> – Create a new branch and switch to it.
+
+git checkout GIT
+switch to another branch
+git checkout branch-name(main)
+git branch -c copy-branch # this will copy main branch complete data
+
+delete branch
+git branch -D <branch-name>
+
+git branch -m <branch-name> <new-branch-name> – Rename a Git branch
+git branch -m copy-git copy1-git
+
+git branch -r  Display a list of the remote branches in your Git repository.
+
+
+git push <remote> --delete <remote-branch-name> – Delete a remote Git branch.
+git push --set-upstream <remote> <branch> – Set an upstream branch. Running this command will push your local branch to the new remote branch.
