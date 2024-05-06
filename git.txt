@@ -9,8 +9,8 @@ readme.md
 git rm -f --cached demo  # to remoe another repo by mistake added in my repo
 changes===>>>means commit
 git fetch ===> remote to local repo
-git merge ===> local repo to working directory
-git pull==> git fetch + git merge
+git merge ===> local repo to working directory, after this only changes will appear.
+git pull==> git fetch + git merge===>> after run this command directly changes will ahow whatever is on remote git hub repo.
 git pull==> agar remote repo main same line par kisi developer ne change kiya hai
 and hum b apne local par working directory main same linepar change kr rahe hai to
 merge conflict aajayega
