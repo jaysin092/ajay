@@ -25,4 +25,12 @@ working-directory   staging-area       loacl-repo(head)  remote-repo(master/main
 
 
 this all will changes in current git repo on git GitHub.
-after this we will goto git hub and check open pull request and review and merge the same after assigning it itself.
+after this we will goto git hub and check open pull request, click on new pull request 
+compare main <== your branch/repo diff
+it will show the changes 
+create pull request
+add title 
+create pull request
+merge pull request
+confirm merge
+same changes will show whatever in feature branc/your branch same on miain/master branch. 
