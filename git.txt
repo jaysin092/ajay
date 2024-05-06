@@ -23,7 +23,9 @@ git stash : will remoe whatever changes we have done in feature branch.
 git rebase # agar humne apni feature branch main kuch changes kr rakhe hai like 2 commit hai humare paas and kisi
 or developer ne main/master branch par alraedy commit merge kr diye after "git pull origin master".
 to hum apni feature branc main kake "git log dekhenge to" to master k commit head main dikhega. 
-fir hum "git rebase master" command use krenge apni feature branc main to humare commit aise show honge k humne master k sath apne commit kr diye hai 
+fir hum "git rebase master" command use krenge apni feature branch main to master k sare changes humare pass aajayenge
+then hum apne changes master/main main b commit kr sakte hai.
+checkout main/master then "git merge feature branch"
 
 git checkout master/main
 git branch branch-name
