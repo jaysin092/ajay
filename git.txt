@@ -5,8 +5,20 @@ to collaborate with team
 GitHub:
 to store the code
 
-
+feature branch ==>> jo branch master /main se kaati ho.
 readme.md
 .md=>>markdown document
 
 changes===>>>means commit
+git fetch ===> remote to local repo
+git merge ===> local repo to working directory
+git pull==> git fetch + git merge
+git pull==> agar remote repo main same line par kisi developer ne change kiya hai
+and hum b apne local par working directory main same linepar change kr rahe hai to
+merge conflict aajayega
+
+
+working-directory   staging-area       loacl-repo(head)  remote-repo(master/main)
+---------------git add-------->git commit-------->git push---------->
+<------------------------------git merge----------<-- git fetch------
+<-------------------------------git pull-----------------------------
