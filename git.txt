@@ -1,7 +1,7 @@
 git: branch
 to track the project history
 to collaborate with team
-
+git log --oneline --decorate --graph --all # check logs with branch merge
 GitHub:
 to store the code
 
@@ -16,6 +16,14 @@ git pull==> git fetch + git merge
 git pull==> agar remote repo main same line par kisi developer ne change kiya hai
 and hum b apne local par working directory main same linepar change kr rahe hai to
 merge conflict aajayega
+git stash==> i have cahnged in feature branch then without commit checkout to master or other branch branch. it
+will promopt msg please stash before checkout to next branch. 
+git stash : will remoe whatever changes we have done in feature branch.
+ 
+git rebase # agar humne apni feature branch main kuch changes kr rakhe hai like 2 commit hai humare paas and kisi
+or developer ne main/master branch par alraedy commit merge kr diye after "git pull origin master".
+to hum apni feature branc main kake "git log dekhenge to" to master k commit head main dikhega. 
+fir hum "git rebase master" command use krenge apni feature branc main to humare commit aise show honge k humne master k sath apne commit kr diye hai 
 
 git checkout master/main
 git branch branch-name
