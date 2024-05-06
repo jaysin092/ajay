@@ -1,0 +1,12 @@
+git: 
+to track the project history
+to collaborate with team
+
+GitHub:
+to store the code
+
+
+readme.md
+.md=>>markdown document
+
+changes===>>>means commit

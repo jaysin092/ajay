@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../cloudFormation"
+		},
+		{
+			"path": "../Terrafom/terraform-vpc"
+		}
+	],
+	"settings": {}
+}
