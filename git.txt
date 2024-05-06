@@ -1,7 +1,7 @@
-git: 
+git: branch
 to track the project history
 to collaborate with team
-
+git log --oneline --decorate --graph --all # check logs with branch merge
 GitHub:
 to store the code
 
@@ -16,6 +16,24 @@ git pull==> git fetch + git merge
 git pull==> agar remote repo main same line par kisi developer ne change kiya hai
 and hum b apne local par working directory main same linepar change kr rahe hai to
 merge conflict aajayega
+git stash==> i have cahnged in feature branch then without commit checkout to master or other branch branch. it
+will promopt msg please stash before checkout to next branch. 
+git stash : will remoe whatever changes we have done in feature branch.
+ 
+git rebase # agar humne apni feature branch main kuch changes kr rakhe hai like 2 commit hai humare paas and kisi
+or developer ne main/master branch par alraedy commit merge kr diye after "git pull origin master".
+to hum apni feature branc main kake "git log dekhenge to" to master k commit head main dikhega. 
+fir hum "git rebase master" command use krenge apni feature branch main to master k sare changes humare pass aajayenge
+then hum apne changes master/main main b commit kr sakte hai.
+checkout main/master then "git merge feature branch"
+
+git checkout master/main
+git branch branch-name
+git branch -b 
+git add file-name
+or git add . #current directory
+git commit -m ""
+or git commit -am "" # add and commit both
 
 
 working-directory   staging-area       loacl-repo(head)  remote-repo(master/main)
@@ -33,4 +51,43 @@ add title
 create pull request
 merge pull request
 confirm merge
+<<<<<<< HEAD
 same changes will show whatever in feature branc/your branch same on miain/master branch. 
+
+
+To remove all the files staged in the index at the same time, use the command:
+
+git reset HEAD -- <directory-name>
+
+To remove a single staged file from index, use the command:
+
+git rm --cached <filename>
+
+
+PS D:\GIT> git branch -a # shows remote and local branch
+* GIT
+  main
+  remotes/origin/GIT
+  remotes/origin/main
+
+git checkout -b <branch-name> – Create a new branch and switch to it.
+
+git checkout GIT
+switch to another branch
+git checkout branch-name(main)
+git branch -c copy-branch # this will copy main branch complete data
+
+delete branch
+git branch -D <branch-name>
+
+git branch -m <branch-name> <new-branch-name> – Rename a Git branch
+git branch -m copy-git copy1-git
+
+git branch -r  Display a list of the remote branches in your Git repository.
+
+
+git push <remote> --delete <remote-branch-name> – Delete a remote Git branch.
+git push --set-upstream <remote> <branch> – Set an upstream branch. Running this command will push your local branch to the new remote branch.
+=======
+same changes will show whatever in feature branc/your branch same on miain/master branch. 
+>>>>>>> 4f692e82b33194fd6713a64a69d200ccbc74870a
